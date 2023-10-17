@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name boosterpack)(type Legacy)(uri ${KIPRJMOD}/boosterpack.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "boosterpack")(type "Legacy")(uri "${KIPRJMOD}/boosterpack.lib")(options "")(descr ""))
+  (lib (name "rtcc_boosterpack-rescue")(type "KiCad")(uri "${KIPRJMOD}/rtcc_boosterpack-rescue.kicad_sym")(options "")(descr ""))
 )
