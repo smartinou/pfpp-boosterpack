@@ -5,7 +5,9 @@
   (paper "A4")
 
   (title_block
+    (title "RTCC BoosterPack")
     (date "19 oct 2012")
+    (rev "1.1")
   )
 
   (lib_symbols
