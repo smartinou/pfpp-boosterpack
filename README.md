@@ -14,7 +14,7 @@ GPIO match for various development boards.
 ### EK-TM4C129EXL
 
 J1
-Pin | BoosterPack | Schematic
+Pin | MCU Pin | BoosterPack Schematic
 --- | --- | ---
 1 | +3.3V | +3.3V
 2 | PD2 | NC
@@ -28,7 +28,7 @@ Pin | BoosterPack | Schematic
 10 | PN4 | NC
 
 J2
-Pin | BoosterPack | Schematic
+Pin | MCU Pin | BoosterPack Schematic
 --- | --- | ---
 1 | GND | GND
 2 | PM7 | NC
@@ -42,7 +42,7 @@ Pin | BoosterPack | Schematic
 10 | PM6 | AIN2
 
 J3
-Pin | BoosterPack | Schematic
+Pin | MCU Pin | BoosterPack Schematic
 --- | --- | ---
 1 | +5V | NC
 2 | GND | GND
@@ -56,7 +56,7 @@ Pin | BoosterPack | Schematic
 10 | PA5 | NC
 
 J4
-Pin | BoosterPack | Schematic
+Pin | MCU Pin | BoosterPack Schematic
 --- | --- | ---
 1 | PG1 | PWMB
 2 | PK4 | PWMA
@@ -70,3 +70,16 @@ Pin | BoosterPack | Schematic
 10 | PK7 | RTCC_RST
 
 ### EK-TM4C123GXL
+
+Pin | J1 MCU Pin | J1 BoosterPack Schematic | J3 MCU Pin | J3 BoosterPack Schematic
+--- | --- | --- | --- | ---
+1 | +3.3V | +3.3V | +5V | NC
+2 | PB5 | NC | GND | GND
+3 | PB0 | NC | PB4 | NC
+4 | PB1 | NC | PB5 | NC
+5 | PE4 | SPI_SDC_CSn | PK0 | NC
+6 | PE5 | NC | PK1 | NC
+7 | PB4 | SPI_CLK | PK2 | NC
+8 | PA5 | NC | PK3 | NC
+9 | PA6 | NC | PA4 | NC
+10 | PA6 | NC | PA5 | NC
