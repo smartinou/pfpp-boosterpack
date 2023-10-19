@@ -71,6 +71,8 @@ Pin | MCU Pin | BoosterPack Schematic
 
 ### EK-TM4C123GXL
 
+**Even if the board was 1st developed for the EK-TM4C129EXL, the GPIO pin matching for the EK-TM4C123GXL corresponds to the symbols in the schematic.**
+
 Pin | J1 MCU Pin | J1 BoosterPack Schematic | J3 MCU Pin | J3 BoosterPack Schematic
 --- | --- | --- | --- | ---
 1 | +3.3V | +3.3V | +5V | NC
@@ -83,3 +85,18 @@ Pin | J1 MCU Pin | J1 BoosterPack Schematic | J3 MCU Pin | J3 BoosterPack Schema
 8 | PA5 | NC | PK3 | NC
 9 | PA6 | NC | PA4 | NC
 10 | PA6 | NC | PA5 | NC
+
+
+Pin | J4 MCU Pin | J4 BoosterPack Schematic | J2 MCU Pin | J2 BoosterPack Schematic
+--- | --- | --- | --- | ---
+1 | PF2 | PWMB | GND | GND
+2 | PF3 | PWMA | PB2 | NC
+3 | PB3 | NC | PB0 | NC
+4 | PC4 | NC | PF0 | SD_DET
+5 | PC5 | NC | Reset | NC
+6 | PC6 | BIN2 | PB7 | SPI_MOSI
+7 | PC7 | BIN1 | PB6 | SPI_MISO
+8 | PD6 | STBYn | PA4 | RTCC_INTn
+9 | PD7 | AIN1 | PA3 | SPI_RTCC_CSn
+10 | PC4 | RTCC_RST | PA2 | AIN2
+
